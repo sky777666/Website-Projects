@@ -1,0 +1,35 @@
+Export Code
+HTML
+CSS
+JS
+Assets
+<body class="body">
+  <div class="button-block">
+    <a data-w-id="5168fae6-eee5-e117-cd10-4c1f438e32bf" href="#" class="button w-inline-block">
+      <div style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-part-left-2"></div>
+      <div style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-part-left-20"></div>
+      <div style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-part-right-middle"></div>
+      <div style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-part-right-20"></div>
+      <div style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-part-right-21"></div>
+      <div class="text-block">Get in touch</div>
+    </a>
+  </div>
+  <div class="uiflow_badge bottom_left">
+    <div class="uiflow-screen"><img src="images/uiflow.png" srcset="images/uiflow-p-500.png 500w, images/uiflow-p-800.png 800w, images/uiflow-p-1080.png 1080w, images/uiflow.png 1524w" sizes="100vw" alt="" class="uiflow_screen"></div>
+    <div class="uiflow-logo-block"><img src="https://uploads-ssl.webflow.com/5d81ae93072bc3f62956a16a/5da80b2bea5d9eb51e03931f_Close_badge.svg" data-w-id="9320d548-4251-7192-77b3-b3c22d15b222" alt="" class="close_badge">
+      <div class="uiflow_logo"><a href="https://www.uiflow.co/" target="_blank" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/5da6d50c74d4ca78ae88c6e1/5da75a8cc2271f4664d68d03_uiflow_badge_logo.svg" alt=""></a></div>
+    </div>
+    <div class="assets_info">
+      <h1 class="uiflow_badge_h1">Button hover effect 4</h1>
+      <div class="actions"><a href="https://webflow.com/website/Uiflow-Digital-agency-landing-page-Demo-2?s=uiflow-digital-agency-demo-2" target="_blank" class="clone w-inline-block"><img src="images/clone_icon_1clone_icon.png" alt="" class="clone_icon"><div class="clone_text">Clone</div></a></div>
+    </div>
+    <div class="uiflow_badge_links">
+      <p><a href="https://www.uiflow.co/" target="_blank"><strong>Visit us @ uiflow.co</strong></a></p>
+      <h2 class="uiflow_badge_h2">UIflow links</h2>
+      <div class="uiflow_links"><a href="https://www.uiflow.co/inspirations" target="_blank" class="uiflow_badge_link"><strong>_Inspirations</strong></a><a href="https://www.uiflow.co/assets" target="_blank" class="uiflow_badge_link"><strong>__Assets</strong></a><a href="https://www.uiflow.co/templates" target="_blank" class="uiflow_badge_link"><strong>___Templates</strong></a><a href="https://www.uiflow.co/webflow-resources" target="_blank" class="uiflow_badge_link"><strong>____Resources</strong></a><a href="https://www.uiflow.co/plugins" target="_blank" class="uiflow_badge_link"><strong>_____Webflow Hacks</strong></a></div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
