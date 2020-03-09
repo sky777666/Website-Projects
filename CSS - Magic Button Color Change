@@ -1,0 +1,376 @@
+.body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.button {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 180px;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 2px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-block {
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button-part-left {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  width: 50%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: #ebcb41;
+}
+
+.button-part-right {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 50%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #ebcb41;
+}
+
+.center-element {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.center-element-child {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #000;
+}
+
+.section {
+  padding: 121px;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.button-part-left-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  width: 20%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: #ebcb41;
+}
+
+.button-part-left-20 {
+  position: absolute;
+  left: 20%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  width: 20%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: #ebcb41;
+}
+
+.button-part-right-middle {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 40%;
+  bottom: 0%;
+  width: 20%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #ebcb41;
+}
+
+.button-part-right-20 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 20%;
+  bottom: 0%;
+  width: 20%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #ebcb41;
+}
+
+.button-part-right-21 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 20%;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #ebcb41;
+}
+
+.uiflow_badge {
+  position: fixed;
+  left: 20px;
+  top: 40px;
+  right: auto;
+  bottom: auto;
+  width: 320px;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4353ff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.89)), to(hsla(0, 0%, 100%, 0.89))), url('../images/uiflow_webclip.png');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.89), hsla(0, 0%, 100%, 0.89)), url('../images/uiflow_webclip.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.24);
+  font-family: Varela, sans-serif;
+}
+
+.uiflow_badge.bottom_left {
+  left: 20px;
+  top: auto;
+  right: auto;
+  bottom: 20px;
+}
+
+.uiflow_badge_link {
+  display: block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: 'Varela Round', sans-serif;
+  color: #585454;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.uiflow_badge_link:hover {
+  padding-left: 5px;
+  background-color: #275efe;
+  color: #eee;
+}
+
+.clone_text {
+  margin-left: 5px;
+}
+
+.assets_info {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.uiflow_badge_h2 {
+  font-family: Varela, sans-serif;
+  color: #4353ff;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.uiflow-screen {
+  display: none;
+}
+
+.uiflow_badge_h1 {
+  font-family: Varela, sans-serif;
+  color: #4353ff;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.close_badge {
+  position: absolute;
+  left: auto;
+  top: -8px;
+  right: -5px;
+  bottom: auto;
+  width: 26px;
+  padding: 7px;
+  background-color: #cf263a;
+  cursor: pointer;
+}
+
+.clone_icon {
+  width: 14px;
+}
+
+.clone {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  padding: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4b4b4b;
+  border-radius: 2px;
+  background-color: #2a31c6;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  color: #fff;
+  text-decoration: none;
+}
+
+.clone:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.uiflow_logo {
+  position: relative;
+  width: 100px;
+  margin-top: -23px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 6px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #4353ff;
+  background-color: #fff;
+  text-align: center;
+}
+
+.uiflow_links {
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4353ff;
+}
+
+.uiflow_badge_links {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.actions {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.uiflow_screen {
+  padding: 5px;
+}
+
+.uiflow-logo-block {
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  .body {
+    padding-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .button-block {
+    margin-bottom: 80px;
+  }
+  .uiflow_badge.bottom_left {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .uiflow_badge.bottom_left {
+    position: relative;
+    left: 0px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .uiflow_badge.bottom_left {
+    width: 100%;
+  }
+}
+Host with Webflow to take full advantage of our CMS, Ecommerce, forms, and search features.
+Add hosting
+Manual changes to exported fil
