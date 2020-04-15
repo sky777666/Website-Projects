@@ -1,0 +1,129 @@
+HTML
+
+<div class="box">
+	<div class="box__circle box__circle--blue"></div>
+	<div class="box__icon">
+		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 512 512"><path fill="#fff" d="M272 191.997l47.999 47.999-47.999 47.999-47.999-47.999zM208.007 256l48.001 48.001-175.998 175.998-48.001-48.001zM256 32h32v64h-32zM385.131 149.497l-22.627-22.627 45.254-45.254 22.627 22.627zM113.606 104.234l22.627-22.627 45.254 45.254-22.627 22.627zM362.505 353.126l22.627-22.627 45.254 45.254-22.627 22.627zM416 224h64v32h-64z"/></svg>
+	</div>
+	<h1 class="box__headline">Headline</h1>
+	<p class="box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quas expedita saepe dignissimos nesciunt, nihil dolores, quis ea esse voluptas.</p>
+</div>
+
+<div class="box">
+	<div class="box__circle box__circle--violet"></div>
+	<div class="box__icon">
+		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 512 512"><path fill="#fff" d="M272 191.997l47.999 47.999-47.999 47.999-47.999-47.999zM208.007 256l48.001 48.001-175.998 175.998-48.001-48.001zM256 32h32v64h-32zM385.131 149.497l-22.627-22.627 45.254-45.254 22.627 22.627zM113.606 104.234l22.627-22.627 45.254 45.254-22.627 22.627zM362.505 353.126l22.627-22.627 45.254 45.254-22.627 22.627zM416 224h64v32h-64z"/></svg>
+	</div>
+	<h1 class="box__headline">Headline</h1>
+	<p class="box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quas expedita saepe dignissimos nesciunt, nihil dolores, quis ea esse voluptas.</p>
+</div>
+
+<div class="box">
+	<div class="box__circle box__circle--purple"></div>
+	<div class="box__icon">
+		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 512 512"><path fill="#fff" d="M272 191.997l47.999 47.999-47.999 47.999-47.999-47.999zM208.007 256l48.001 48.001-175.998 175.998-48.001-48.001zM256 32h32v64h-32zM385.131 149.497l-22.627-22.627 45.254-45.254 22.627 22.627zM113.606 104.234l22.627-22.627 45.254 45.254-22.627 22.627zM362.505 353.126l22.627-22.627 45.254 45.254-22.627 22.627zM416 224h64v32h-64z"/></svg>
+	</div>
+	<h1 class="box__headline">Headline</h1>
+	<p class="box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quas expedita saepe dignissimos nesciunt, nihil dolores, quis ea esse voluptas.</p>
+</div>
+
+
+CSS-----------------
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.box {
+	flex: 0 0 auto;
+	position: relative;
+	margin: 0 1em;
+	padding: 150px 3em 3em;
+	width: 300px;
+	overflow: hidden;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+	transition: box-shadow ease 1s;
+	
+	&:hover {
+		box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+		transition-delay: .2s;
+	}
+	
+	&__circle,
+	&__icon {
+		$size: 5em;
+		
+		position: absolute;
+		top: calc(50% - #{ $size/2 });
+		left: calc(50% - #{ $size/2 });
+		width: $size;
+		height: $size;
+		transition: transform ease 1s;
+		transition-delay: .2s;
+		will-change: transform;
+	}
+	
+	&__icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	&:hover &__icon {
+		transform: translateY(-95px);
+	}
+	
+	&__circle {
+		border-radius: 100%;
+		
+		&--blue {
+			background: linear-gradient(#3170c7, #38bed3);
+		}
+		
+		&--violet {
+			background: linear-gradient(#6e18ca, #c32d83);
+		}
+		
+		&--purple {
+			background: linear-gradient(#7f38d3, #7ec3d1);
+		}
+	}
+	
+	&:hover &__circle {
+		transform: translateY(-200px) scale(14);
+	}
+	
+	&__headline {
+		margin: 0 0 1em;
+		font-weight: 400;
+		font-size: 1.6em;
+	}
+	
+	&__text {
+		margin: 0;
+		line-height: 1.5;
+	}
+	
+	&__headline,
+	&__text {
+		position: relative;
+		color: white;
+		opacity: 0;
+		transition: opacity ease 1s;
+		will-change: opacity;
+	}
+	
+	&:hover &__headline,
+	&:hover &__text {
+		opacity: 1;
+		transition-delay: .4s;
+	}
+}
