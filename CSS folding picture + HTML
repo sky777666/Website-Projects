@@ -1,0 +1,294 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #c3c3c3;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-image: linear-gradient(45deg, #37b9be, #b36de2);
+}
+
+.expander-container {
+  max-width: 400px;
+  margin: 10px;
+  -webkit-perspective: 1800px;
+  perspective: 1800px;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+}
+
+.expander-container:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.card-1 {
+  position: relative;
+  z-index: 999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 30px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 2px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.team-member-shot {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.team-member-shot.caper {
+  background-image: url('../images/foto-sushi-128246-1.jpg');
+  background-position: 55% 43%;
+  background-size: 308px;
+  background-repeat: no-repeat;
+}
+
+.team-member-shot.watson {
+  background-image: url('../images/autumn-goodman-242810.jpg');
+  background-position: 46% -86px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.no-margin-top {
+  margin-top: 0px;
+}
+
+.card-2 {
+  overflow: hidden;
+  height: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+  -webkit-transform: perspective(1800px) rotateX(-100deg) rotateY(0deg) rotateZ(0deg);
+  transform: perspective(1800px) rotateX(-100deg) rotateY(0deg) rotateZ(0deg);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card-3 {
+  overflow: hidden;
+  height: 0px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #242424;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: perspective(1800px) rotateX(-100deg) rotateY(0deg) rotateZ(0deg);
+  transform: perspective(1800px) rotateX(-100deg) rotateY(0deg) rotateZ(0deg);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  text-align: center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card-contact-link {
+  width: 22.5px;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 15%;
+  margin-bottom: 25px;
+  margin-left: 15%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.about-title {
+  margin-top: 25px;
+}
+
+.about-p {
+  margin-bottom: 25px;
+}
+
+.contact-title {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 479px) {
+  h3 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .card-1 {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .team-member-shot {
+    height: auto;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
+
+
+
+// SEE HTML 
+
+
+<body>
+  <div class="hero-section">
+    <div class="expander-container">
+      <div data-ix="expand-interaction" class="card-1">
+        <div class="team-member-shot caper"></div>
+        <div>
+          <h3 class="no-margin-bottom">Joe Bloggs</h3>
+          <h5 class="no-margin-top">VP MArketing</h5>
+        </div>
+      </div>
+      <div class="card-2">
+        <h6 class="about-title">About</h6>
+        <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+      </div>
+      <div class="card-3">
+        <h6 class="contact-title">Points of Contact</h6>
+        <div class="flex-row">
+          <div class="flex-col"><a href="#" class="card-contact-link w-inline-block"><img src="images/close-envelope-6.svg" alt=""></a></div>
+          <div class="flex-col"><a href="#" class="card-contact-link w-inline-block"><img src="images/linkedin-logo-2.svg" alt=""></a></div>
+          <div class="flex-col"><a href="#" class="card-contact-link w-inline-block"><img src="images/twitter-logo-silhouette-3.svg" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="expander-container">
+      <div data-ix="expand-interaction" class="card-1">
+        <div class="team-member-shot watson"></div>
+        <div>
+          <h3 class="no-margin-bottom">Charlie Watson</h3>
+          <h5 class="no-margin-top">Lead Design</h5>
+        </div>
+      </div>
+      <div class="card-2">
+        <h6 class="about-title">About</h6>
+        <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+      </div>
+      <div class="card-3">
+        <h6 class="contact-title">Points of Contact</h6>
+        <div class="flex-row">
+          <div class="flex-col"><a href="#" class="card-contact-link w-inline-block"><img src="images/close-envelope-6.svg" alt=""></a></div>
+          <div class="flex-col"><a href="#" class="card-contact-link w-inline-block"><img src="images/linkedin-logo-2.svg" alt=""></a></div>
+          <div class="flex-col"><a href="#" class="card-contact-link w-inline-block"><img src="images/twitter-logo-silhouette-3.svg" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5e968659cd7c088ea24bee6e" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
